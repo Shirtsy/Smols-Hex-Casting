@@ -1,0 +1,58 @@
+{
+    [
+        @pattern(WEST,eaaqwdwaddwaewq),
+        @pattern(WEST,eaaqwdwqaaeaewq),
+        @pattern(WEST,ewqdqddewawdaaw),
+        @pattern(WEST,ewqdqddewaweddq),
+        @pattern(WEST,ewqdwaadwawdaaw),
+        @pattern(WEST,ewqdwaadwaweddq),
+        @pattern(WEST,ewqqeaaqwdwaddw),
+        @pattern(WEST,ewqqeaaqwdwqaae),
+        @pattern(WEST,ewqqwddawdwaddw),
+        @pattern(WEST,ewqqwddawdwqaae),
+        @pattern(WEST,qddewawdaaweewq),
+        @pattern(WEST,qddewaweddqeewq),
+        @pattern(WEST,waadwawdaaweewq),
+        @pattern(WEST,waadwaweddqeewq),
+        @pattern(WEST,wddawdwaddwaewq),
+        @pattern(WEST,wddawdwqaaeaewq)
+    ]
+} >>
+
+Scribe's Reflection
+
+Retrograde Purification
+Speaker's Decomposition
+Gemini Decomposition
+{@num(1)} >>
+Additive Distillation
+{@num(3)} >>
+Fisherman's Gambit
+Jester's Gambit
+Speaker's Distillation
+Retrograde Purification
+
+Scribe's Gambit
+
+Selection Distillation
+Gemini Decomposition
+
+Mind's Reflection
+Compass' Purification
+{@vec(0,10,0)} >>
+Additive Distillation
+
+Jester's Gambit
+Hermes' Gambit
+
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Scout's Distillation
+
+Jester's Gambit
+Chronicler's Gambit
+
+Charon's Gambit
+@num(0)
