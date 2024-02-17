@@ -1,13 +1,14 @@
-//(list, any -> bool) Removes an iota and a list from the stack. Returns true if iota was in list.
+// Inclusivity_Distillation (list, any -> bool)
+// Removes an iota and a list from the stack. Returns true if iota was in list.
 #def(Inclusivity_Distillation)(
     Jester's Gambit
     Gemini Decomposition
-    Length Purification //Stack: any, list, list_len
+    Length Purification // Stack: any, list, list_len
     Jester's Gambit
     Numerical Reflection(3)
-    Fisherman's Gambit //Stack: list_len, list, any
+    Fisherman's Gambit // Stack: list_len, list, any
     Integration Distillation
     Uniqueness Purification
-    Length Purification //Stack: list_len, new_list_len
+    Length Purification // Stack: list_len, new_list_len
     Equality Distillation
 )
