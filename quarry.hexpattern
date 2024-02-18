@@ -57,7 +57,18 @@ $greater_sentinel
     Locate Sentinel
     Additive Distillation
     Sorter's Purification
-    $Inclusivity_Distillation
+
+        Jester's Gambit
+        Gemini Decomposition
+        Abacus Purification// Stack: any, list, list_len
+        Jester's Gambit
+        Numerical Reflection(2)
+        Fisherman's Gambit // Stack: list_len, list, any
+        Integration Distillation
+        Uniqueness Purification
+        Abacus Purification // Stack: list_len, new_list_len
+        Equality Distillation
+    
     Augur's Exaltation
     Hermes' Gambit
     
