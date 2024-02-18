@@ -1,87 +1,138 @@
-#def(greater_sentinel)(@pattern(WEST,eeewaqqqeqqqqedee))
+#def(greater_sentinel)(@pattern(WEST,eewedeawaeawdeewe))
 
 #def(pos_list)(
-[
-    @vec(1,0,1),   @vec(0,0,1),   @vec(-1,0,1),
-    @vec(1,0,0),   @vec(0,0,0),   @vec(-1,0,0),
-    @vec(1,0,-1),  @vec(0,0,-1),  @vec(-1,0,-1)
-]
+    [
+        @vec(5,0,5), @vec(5,0,4), @vec(5,0,3), @vec(5,0,2), @vec(5,0,1), @vec(5,0,0), @vec(5,0,-1), @vec(5,0,-2), @vec(5,0,-3), @vec(5,0,-4), @vec(5,0,-5), @vec(4,0,5), @vec(4,0,4), @vec(4,0,3), @vec(4,0,2), @vec(4,0,1), @vec(4,0,0), @vec(4,0,-1), @vec(4,0,-2), @vec(4,0,-3), @vec(4,0,-4), @vec(4,0,-5), @vec(3,0,5), @vec(3,0,4), @vec(3,0,3), @vec(3,0,2), @vec(3,0,1), @vec(3,0,0), @vec(3,0,-1), @vec(3,0,-2), @vec(3,0,-3), @vec(3,0,-4), @vec(3,0,-5), @vec(2,0,5), @vec(2,0,4), @vec(2,0,3), @vec(2,0,2), @vec(2,0,1), @vec(2,0,0), @vec(2,0,-1), @vec(2,0,-2), @vec(2,0,-3), @vec(2,0,-4), @vec(2,0,-5), @vec(1,0,5), @vec(1,0,4), @vec(1,0,3), @vec(1,0,2), @vec(1,0,1), @vec(1,0,0), @vec(1,0,-1), @vec(1,0,-2), @vec(1,0,-3), @vec(1,0,-4), @vec(1,0,-5), @vec(0,0,5), @vec(0,0,4), @vec(0,0,3), @vec(0,0,2), @vec(0,0,1), @vec(0,0,0), @vec(0,0,-1), @vec(0,0,-2), @vec(0,0,-3), @vec(0,0,-4), @vec(0,0,-5), @vec(-1,0,5), @vec(-1,0,4), @vec(-1,0,3), @vec(-1,0,2), @vec(-1,0,1), @vec(-1,0,0), @vec(-1,0,-1), @vec(-1,0,-2), @vec(-1,0,-3), @vec(-1,0,-4), @vec(-1,0,-5), @vec(-2,0,5), @vec(-2,0,4), @vec(-2,0,3), @vec(-2,0,2), @vec(-2,0,1), @vec(-2,0,0), @vec(-2,0,-1), @vec(-2,0,-2), @vec(-2,0,-3), @vec(-2,0,-4), @vec(-2,0,-5), @vec(-3,0,5), @vec(-3,0,4), @vec(-3,0,3), @vec(-3,0,2), @vec(-3,0,1), @vec(-3,0,0), @vec(-3,0,-1), @vec(-3,0,-2), @vec(-3,0,-3), @vec(-3,0,-4), @vec(-3,0,-5), @vec(-4,0,5), @vec(-4,0,4), @vec(-4,0,3), @vec(-4,0,2), @vec(-4,0,1), @vec(-4,0,0), @vec(-4,0,-1), @vec(-4,0,-2), @vec(-4,0,-3), @vec(-4,0,-4), @vec(-4,0,-5), @vec(-5,0,5), @vec(-5,0,4), @vec(-5,0,3), @vec(-5,0,2), @vec(-5,0,1), @vec(-5,0,0), @vec(-5,0,-1), @vec(-5,0,-2), @vec(-5,0,-3), @vec(-5,0,-4), @vec(-5,0,-5)
+    ]
 )
 
-#def(akashic_library_pos)(
-@vec(-3.50,56.50,-2.50)
+#def(block_list)(
+    [
+        @item_type(minecraft:iron_ore,false),
+        @item_type(minecraft:diamond_ore,false),
+        @item_type(minecraft:gold_ore,false),
+        @item_type(minecraft:emerald_ore,false),
+        @item_type(minecraft:lapis_ore,false),
+        @item_type(minecraft:redstone_ore,false),
+        @item_type(minecraft:copper_ore,false),
+        @item_type(minecraft:deepslate_iron_ore,false),
+        @item_type(minecraft:deepslate_diamond_ore,false),
+        @item_type(minecraft:deepslate_gold_ore,false),
+        @item_type(minecraft:deepslate_emerald_ore,false),
+        @item_type(minecraft:deepslate_lapis_ore,false),
+        @item_type(minecraft:deepslate_redstone_ore,false),
+        @item_type(minecraft:deepslate_copper_ore,false)
+    ]
 )
-#def(block_list_reference)(
-@pattern(WEST,qadaq)
-)
 
-Scribe's Reflection
 
-Retrograde Purification
-Speaker's Decomposition
-Gemini Decomposition
-{@vec(0,-1,0)} >>
-Additive Distillation
-Numerical Reflection(3)
-Fisherman's Gambit
-Jester's Gambit
-Speaker's Distillation
-Retrograde Purification
+#def(quarry)(
+    Scribe's Reflection //list
 
-Scribe's Gambit
-
-Mind's Reflection
-Compass' Purification
-Additive Distillation
-
-$greater_sentinel
-
-{
-    Locate Sentinel
-    Additive Distillation
-    Gemini Decomposition
-    Sorter's Purification
-
-    { $akashic_library_pos } >>
-    { $block_list_reference } >>
-    Akasha's Distillation
-
-    Gemini Decomposition
-    Abacus Purification// Stack: any, list, list_len
-    Jester's Gambit
+    Retrograde Purification //r_list
+    Speaker's Decomposition //r_list, item
+    Gemini Decomposition //r_list, item, item
+    { @vec(0,-1,0) } >> //r_list, item, item, vector
+    Additive Distillation //r_list, item, added
     Numerical Reflection(3)
-    Fisherman's Gambit // Stack: list_len, list, any
-    Integration Distillation
-    Uniqueness Purification
-    Abacus Purification // Stack: list_len, new_list_len
-    Equality Distillation
-    
+    Fisherman's Gambit
+    Jester's Gambit
+    Speaker's Distillation
+    Retrograde Purification
+
+    Scribe's Gambit
+
+    Mind's Reflection
+    Compass' Purification
+    Additive Distillation
+
+    $greater_sentinel
+
     {
+        Locate Sentinel
+        Additive Distillation
         Gemini Decomposition
-        Break Block
-        Numerical Reflection(1)
-        Zone Distillation: Item
+        Sorter's Purification
+
+        { $block_list } >>
+
+        Gemini Decomposition
+        Abacus Purification// Stack: any, list, list_len
+        Jester's Gambit
+        Numerical Reflection(3)
+        Fisherman's Gambit // Stack: list_len, list, any
+        Integration Distillation
+        Uniqueness Purification
+        Abacus Purification // Stack: list_len, new_list_len
+        Equality Distillation
+        
         {
+            Gemini Decomposition
+            Break Block
+            Numerical Reflection(1)
+            Zone Distillation: Item
+            Speaker's Decomposition
+            Jester's Gambit
+            Bookkeeper's Gambit(v)
             Mediafy Item
             Mind's Reflection
             Compass' Purification
             Return Item
         }
-        Jester's Gambit
+        {
+            Bookkeeper's Gambit(v)
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        
+    }
+
+    { $pos_list } >>
+    Thoth's Gambit
+)
+
+#def(main)(
+    Mind's Reflection
+    Stadiometer's Purification
+    {@num(1.6)} >>
+    Maximus Distillation
+    {
+        $quarry
+
+        Bookkeeper's Gambit(v)
+        {
+            Mind's Reflection
+            Compass' Purification
+            Additive Distillation
+        }
+        {
+            [
+                @vec(5,-1,5),
+                @vec(5,-1,-5),
+                @vec(-5,-1,-5),
+                @vec(-5,-1,5),
+                @vec(5,-1,5)
+            ]
+        } >>
         Thoth's Gambit
+        Particles
     }
     {
-        Bookkeeper's Gambit(v)
+        Scribe's Reflection
+        Retrograde Purification // reverse_list
+        Speaker's Decomposition // reverse_list, item
+        Bookkeeper's Gambit(v) // reverse_list
+        { @vec(0,-2,0) } >> // reverse_list, new_item
+        Speaker's Distillation
+        Retrograde Purification
+        Scribe's Gambit
+
+        Banish Sentinel
     }
     Augur's Exaltation
     Hermes' Gambit
-    
-}
+)
 
-{ $pos_list } >>
-Thoth's Gambit
-
-
-
+$main
 Charon's Gambit
-@vec(0,0,0)
+@vec(0,-2,0)
