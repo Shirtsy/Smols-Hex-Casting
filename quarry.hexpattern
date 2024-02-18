@@ -44,12 +44,37 @@
 
     Mind's Reflection
     Compass' Purification
-    Additive Distillation
+    Additive Distillation // location
 
-    $greater_sentinel
+    {@null} >>
+    Locate Sentinel
+    Equality Distillation
+    {
+        Gemini Decomposition // location, location
+        $greater_sentinel
+    }
+    {
+        Gemini Decomposition
+        Locate Sentinel // location, location, sentinel
+        Subtractive Distillation // location, diff
+        Length Purification // location, length
+        Numerical Reflection(14) // location, length, 14
+        Minimus Distillation // location, location, bool
+        {
+            $greater_sentinel
+        }
+        {
+            Bookkeeper's Gambit(v)
+        }
+        Augur's Exaltation
+        Hermes' Gambit // location
+    }
+    Augur's Exaltation
+    Hermes' Gambit // location
+    
 
     {
-        Locate Sentinel
+        // location, relative
         Additive Distillation
         Gemini Decomposition
         Sorter's Purification
