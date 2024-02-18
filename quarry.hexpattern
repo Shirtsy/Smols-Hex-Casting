@@ -1,6 +1,22 @@
 #wget(smolutils.hexpattern)(https://raw.githubusercontent.com/Shirtsy/Smols-Hex-Casting/main/smolutils.hexpattern)
 
-#def(greater_sentinel)(@pattern(WEST,deweeeqeeedwqqqwa))
+#def(greater_sentinel)(@pattern(WEST,eeewaqqqeqqqqedee))
+
+#def(pos_list)(
+[
+    @vec(1,0,1),   @vec(0,0,1),   @vec(-1,0,1),
+    @vec(1,0,0),   @vec(0,0,0),   @vec(-1,0,0),
+    @vec(1,0,-1),  @vec(0,0,-1),  @vec(-1,0,-1)
+]
+)
+
+#def(akashic_library_pos)(
+@vec(-3.50,56.50,-2.50)
+)
+#def(block_list_reference)(
+@pattern(WEST,qadaq)
+)
+#def(len_block_list)(@num(1))
 
 Scribe's Reflection
 
@@ -9,7 +25,7 @@ Speaker's Decomposition
 Gemini Decomposition
 {@vec(0,-1,0)} >>
 Additive Distillation
-Numerical Reflection(2)
+Numerical Reflection(3)
 Fisherman's Gambit
 Jester's Gambit
 Speaker's Distillation
@@ -17,7 +33,38 @@ Retrograde Purification
 
 Scribe's Gambit
 
+Mind's Reflection
+Compass' Purification
+Additive Distillation
+
 $greater_sentinel
+
+{
+    {
+        Break Block
+    }
+    {
+        Bookkeeper's Gambit(v)
+    }
+
+    { $akashic_library_pos } >>
+    { $block_list_reference } >>
+    Akasha's Distillation
+
+    Numerical Reflection(4)
+    Fisherman's Gambit
+
+    Locate Sentinel
+    Additive Distillation
+    Sorter's Purification
+    $Inclusivity_Distillation
+    Augur's Exaltation
+    Hermes' Gambit
+    
+}
+
+{ $pos_list } >>
+Thoth's Gambit
 
 
 
