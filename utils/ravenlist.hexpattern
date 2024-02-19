@@ -1,0 +1,32 @@
+// ravenlist.initialize (num -> )
+// Pushes a list to the Ravenmind containing the specified number of null iotas. 
+@def(ravenlist.initialize)(
+    Gemini Gambit // num, num
+    Huginn's Gambit // num | num
+    @null // num, null | num
+    Jester's Gambit // null, num | num
+    Gemini Gambit // nulls.. | num
+    Muninn's Reflection // nulls.., num | num
+    Flock's Gambit // list | num
+    Huginn's Gambit // _ | list
+)
+
+// ravenlist.write (num, any -> )
+// Remove the top iota of the stack and the number at the top, then set the nth element of the ravenlist to that iota.
+@def(ravenlist.write)(
+    Muninn's Reflection // num, any, ravenlist
+    Numerical Reflection(3)
+    Fisherman's Gambit // any, ravenlist, num
+    Numerical Reflection(3)
+    Fisherman's Gambit // ravenlist, num, any
+    Surgeon's Exaltation // ravenlist
+    Huginn's Gambit
+)
+
+// ravenlist.read (num -> any)
+// Remove the number at the top of the stack and push the nth element of the ravenlist to the stack.
+@def(ravenlist.read)(
+    Muninn's Reflection // num, ravenlist
+    Jester's Gambit
+    Selection Distillation
+)
