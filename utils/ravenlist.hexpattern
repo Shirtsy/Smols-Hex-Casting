@@ -3,7 +3,7 @@
 #def(ravenlist.initialize)(
     Gemini Gambit // num, num
     Huginn's Gambit // num | num
-    {@null} >> // num, null | num
+    Nullary Reflection // num, null | num
     Jester's Gambit // null, num | num
     Gemini Gambit // nulls.. | num
     Muninn's Reflection // nulls.., num | num

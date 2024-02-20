@@ -1,25 +1,139 @@
-#def(consume_wisp)(@pattern(WEST, ))
+#def(consume_wisp)(@pattern(WEST,wqwwwqwdwawqwawdwqwwwqwdwawqwawewddedqweaaqeeeeeadq))
 
-#wget(ravenlist.hexpattern)(https://raw.githubusercontent.com/Shirtsy/Smols-Hex-Casting/main/utils/ravenlist.hexpattern)
+#def(get_wandering_wisps)(
+    // Get list of wanding wisps
+    @entity_type("hexal:wisp/wandering")
+    Identity Reflection
+    Compass' Purification
+    Numerical Reflection(15)
+    Zone Exaltation: Type
+)
+
+// Inclusivity_Distillation (list, any -> bool)
+// Removes an iota and a list from the stack. Returns true if iota was in list.
+#def(inclusivity_distillation)(
+    Jester's Gambit
+    Gemini Decomposition
+    Abacus Purification// Stack: any, list, list_len
+    Jester's Gambit
+    Numerical Reflection(3)
+    Fisherman's Gambit // Stack: list_len, list, any
+    Integration Distillation
+    Uniqueness Purification
+    Abacus Purification // Stack: list_len, new_list_len
+    Equality Distillation
+)
 
 // Spell for wisp to run
 {
     Muninn's Reflection
-    {@null} >>
+    Nullary Reflection
     Equality Distillation
-    // ravenmind null case
+    // Ravenmind null case
     {
-        
+        // Remove reference to self from stack
+        Bookkeeper's Gambit(v)
+
+        // Pattern List
+        {
+            $consume_wisp
+        }
+        // Get list of wanding wisps
+        $get_wandering_wisps
+        // Thoth's to eat all wandering wisps
+        Thoth's Gambit
+
+        // Push empty list to ravenmind
+        Vacant Reflection
+        Huginn's Gambit
     }
-    // ravenmind populated case
+    // Ravenmind populated case
     {
-        
+        //START: Add new wisps to ravenmind [[entity, time], ...] list
+            //  Pattern List
+            {
+                Speaker's Decomposition
+            }
+            // Get ravenmind list
+            Muninn's Reflection
+            // Thoth's to get all entity refs from ravenmind pairs and add them to a list
+            Thoth's Gambit
+
+            // Stack: tracked_entity_list
+
+            // Pattern List
+            {
+                // Stack: tracked_entity_list, entity
+                Gemini Decomposition // list, entity, entity
+                Numerical Reflection(3)
+                Fisherman's Gambit // entity, entity, list
+                Jester's Gambit // entity, list, entity
+                $inclusivity_distillation // entity, bool
+
+                // entity is in list case
+                {
+                    // Stack: entity
+                    Bookkeeper's Gambit(v)
+                }
+                // entity not in list case
+                {
+                    // Stack: entity
+                    Timekeeper's Reflection // entity, time
+                    Numerical Reflection(2)
+                    Flock's Gambit // [entity, time]
+
+                    Muninn's Reflection // list, [list, list, ...]
+                    Jester's Gambit // [list, list, ...], list
+                    Integration Distillation
+                    Huginn's Gambit // Update ravenmind with new entry
+                }
+                Augur's Exaltation
+                Hermes' Gambit
+            }
+            // Get list of wandering wisps
+            $get_wandering_wisps
+            // Thoth's
+            Thoth's Gambit
+
+        //START: Check age of all wisps in ravenmind list and consume ones that are old enough
+            // Pattern List
+            {
+                // Stack: [entity, time]
+                Gemini Decomposition // [entity, time], [entity, time]
+                Flock's Disintegration // [entity, time], entity, time
+                Bookkeeper's Gambit(-v-) // [entity, time], time
+                Timekeeper's Reflection // [entity, time], time, current_time
+                Jester's Gambit // [entity, time], current_time, time
+                Subtractive Distillation // [entity, time], delta
+                Numerical Reflection(290) // [entity, time], delta, num
+                Maximus Distillation // [entity, time], bool
+
+                // Delta greater than val case
+                {
+                    // Stack: [entity, time]
+                    Flock's Disintegration // entity, time
+                    Bookkeeper's Gambit(v) // entity
+                    $consume_wisp
+                }
+                // Delta lesser than val case
+                {
+                    // Stack: [entity, time]
+                }
+                Augur's Exaltation
+                Hermes' Gambit
+            }
+            // Get ravenmind list
+            Muninn's Reflection
+            // Thoth's to return list of remaining wisps
+            Thoth's Gambit
+            // Push remaining wisps back to ravenmind
+            Huginn's Gambit
     }
     Augur's Exaltation
     Hermes' Gambit
 
     //Delay
-    Numerical Reflection(5)
+    Numerical Reflection(10)
     Delay Wisp
 }
 
