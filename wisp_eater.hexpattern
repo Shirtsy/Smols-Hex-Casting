@@ -1,0 +1,36 @@
+#def(consume_wisp)(@pattern(WEST, ))
+
+#wget(ravenlist.hexpattern)(https://raw.githubusercontent.com/Shirtsy/Smols-Hex-Casting/main/utils/ravenlist.hexpattern)
+
+// Spell for wisp to run
+{
+    Muninn's Reflection
+    {@null} >>
+    Equality Distillation
+    // ravenmind null case
+    {
+        
+    }
+    // ravenmind populated case
+    {
+        
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+    //Delay
+    Numerical Reflection(5)
+    Delay Wisp
+}
+
+// Vec for wisp to spawn at
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Archer's Distillation
+
+// Amount of media for wisp
+Numerical Reflection(20)
+
+Summon Cyclic Wisp
