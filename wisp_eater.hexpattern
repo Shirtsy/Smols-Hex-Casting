@@ -49,7 +49,6 @@
                 Gemini Decomposition // list, entity, entity
                 Numerical Reflection(3)
                 Fisherman's Gambit // entity, entity, list
-                Reveal
 
                 // return true if entity in list
                 Gemini Decomposition
@@ -61,6 +60,7 @@
                 Uniqueness Purification
                 Abacus Purification // Stack: list_len, new_list_len
                 Equality Distillation // Stack: entity, bool
+                Reveal
                 
                 // entity is in list case
                 {
