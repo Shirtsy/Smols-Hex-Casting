@@ -38,7 +38,7 @@
         {
             $consume_wisp
         }
-        // Get list of wanding wisps
+        // Get list of wandering wisps
         $get_wandering_wisps
         // Thoth's to eat all wandering wisps
         Thoth's Gambit
