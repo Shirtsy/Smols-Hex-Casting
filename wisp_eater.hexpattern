@@ -2,7 +2,7 @@
 
 #def(get_wandering_wisps)(
     // Get list of wanding wisps
-    @entity_type("hexal:wisp/wandering")
+    { @entity_type(hexal:wisp/wandering) } >>
     Identity Reflection
     Compass' Purification
     Numerical Reflection(15)
@@ -49,7 +49,7 @@
     }
     // Ravenmind populated case
     {
-        //START: Add new wisps to ravenmind [[entity, time], ...] list
+        //START: Add new wisps to ravenmind list
             //  Pattern List
             {
                 Speaker's Decomposition
@@ -96,43 +96,71 @@
             Thoth's Gambit
 
         //START: Check age of all wisps in ravenmind list and consume ones that are old enough
-            // Pattern List
-            {
-                // Stack: [entity, time]
-                Gemini Decomposition // [entity, time], [entity, time]
-                Flock's Disintegration // [entity, time], entity, time
-                Bookkeeper's Gambit(-v-) // [entity, time], time
-                Timekeeper's Reflection // [entity, time], time, current_time
-                Jester's Gambit // [entity, time], current_time, time
-                Subtractive Distillation // [entity, time], delta
-                Numerical Reflection(290) // [entity, time], delta, num
-                Maximus Distillation // [entity, time], bool
-
-                // Delta greater than val case
-                {
-                    // Stack: [entity, time]
-                    Flock's Disintegration // entity, time
-                    Bookkeeper's Gambit(v) // entity
-                    $consume_wisp
-                }
-                // Delta lesser than val case
-                {
-                    // Stack: [entity, time]
-                }
-                Augur's Exaltation
-                Hermes' Gambit
-            }
-            // Get ravenmind list
             Muninn's Reflection
-            // Thoth's to return list of remaining wisps
-            Thoth's Gambit
-            // Push remaining wisps back to ravenmind
-            Huginn's Gambit
+            Abacus Purification // len
+            Numerical Reflection(0) // len, num
+            Equality Distillation // list, bool
+
+            // Ravenmind list 0 case
+            {
+            }
+            // Ravenmind list not 0 case
+            {
+                // Pattern List
+                {
+                    // Stack: [entity, time]
+                    Gemini Decomposition // [entity, time], [entity, time]
+                    Flock's Disintegration // [entity, time], entity, time
+                    Bookkeeper's Gambit(-v-) // [entity, time], time
+                    Timekeeper's Reflection // [entity, time], time, current_time
+                    Jester's Gambit // [entity, time], current_time, time
+                    Subtractive Distillation // [entity, time], delta
+                    Reveal
+                    Numerical Reflection(290) // [entity, time], delta, num
+                    Maximus Distillation // [entity, time], bool
+
+                    // Delta greater than val case
+                    {
+                        // Stack: [entity, time]
+                        Flock's Disintegration // entity, time
+                        Bookkeeper's Gambit(v) // entity
+                        $consume_wisp
+                    }
+                    // Delta lesser than val case
+                    {
+                        // Stack: [entity, time]
+                        Muninn's Reflection
+                        Jester's Gambit
+                        Integration Distillation
+                        // Add item to ravenmind list
+                        Huginn's Gambit
+                    }
+                    Augur's Exaltation
+                    Hermes' Gambit
+                }
+                // Get ravenmind list
+                Muninn's Reflection // list
+
+                // Push empty list to ravenmind
+                Vacant Reflection
+                Huginn's Gambit
+
+                // Thoth's
+                Thoth's Gambit
+                Bookkeeper's Gambit(v)
+            }
+            Augur's Exaltation
+            Hermes' Gambit
     }
     Augur's Exaltation
     Hermes' Gambit
 
-    //Delay
+    // Check Resevoir
+    Resevoir Reflection
+    Reveal
+    Bookkeeper's Reflection(v)
+
+    // Delay
     Numerical Reflection(10)
     Delay Wisp
 }
@@ -145,6 +173,6 @@ Alidade's Purification
 Archer's Distillation
 
 // Amount of media for wisp
-Numerical Reflection(20)
+Numerical Reflection(128)
 
 Summon Cyclic Wisp
