@@ -1,5 +1,9 @@
 #wget(syntax_utils.hexpattern)(https://github.com/Shirtsy/HexLator/raw/main/utils/syntax_utils.hexpattern)
 
+#def(villager_vector)(@vec(816.5,65.5,298.5))
+#def(amethyst_vector)(@vec(815.5,63.5,297.5))
+#def(item_frame_vector)(@vec(811.5,65.5,291.5))
+
 // Pattern to execute
 {
     // Check if first cast
@@ -35,11 +39,11 @@
                 Gemini Decomposition // pattern, pattern
 
                 // Villager vector
-                { @vec(816.5,65.5,298.5) } >>
+                { $villager_vector } >>
                 Entity Purification // pattern, pattern, entity
 
                 // Amethyst vector
-                { @vec(815.5,63.5,297.5) } >> // pattern, pattern, entity, vec
+                { $amethyst_vector } >> // pattern, pattern, entity, vec
 
                 Numerical Reflection(3)
                 Fisherman's Gambit // pattern, entity, vec, pattern
@@ -52,7 +56,7 @@
                     Reveal // pattern
 
                     // Item frame vector
-                    { @vec(811.5,65.5,291.5) } >>
+                    { $item_frame_vector } >>
                     Entity Purification
 
                     Jester's Gambit // entity, pattern
