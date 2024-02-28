@@ -1,0 +1,21 @@
+Mind's Reflection
+Stadiometer's Purification
+{@num(1.6)} >>
+Maximus Distillation
+// Standing case
+{
+    Memento's Reflection // gate
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Scout's Distillation // gate, entity
+    Gate's Opening
+}
+// Crouching case
+{
+    Memento's Reflection
+    Gate's Closing
+}
+Augur's Exaltation
+Hermes' Gambit
