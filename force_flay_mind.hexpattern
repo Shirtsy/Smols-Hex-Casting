@@ -1,0 +1,73 @@
+#wget(syntax_utils.hexpattern)(https://github.com/Shirtsy/HexLator/raw/main/utils/syntax_utils.hexpattern)
+
+// Pattern to execute
+{
+    // Check if first cast
+    $if (
+        Nullary Reflection
+        Muninn's Reflection
+        Equality Distillation
+    ) then (
+        // Ravenmind empty case
+        Huginn's Gambit
+        Mind's Reflection
+        Compass' Purification
+        Mind's Reflection
+        Alidade's Purification
+        Archer's Distillation
+        Link
+    ) else (
+        // Ravenmind populated case
+
+        // Check if no unread iota
+        $if (
+            Numerical Reflection(0)
+            Postmaster's Reflection
+            Equality Distillation
+        ) then (
+            // Message queue empty case
+            Aergia's Gambit
+        ) else (
+            // Message queue populated case
+
+            $for_each in (Recitation Reflection) do (
+                // Stack: pattern
+                Gemini Decomposition // pattern, pattern
+
+                // Villager vector
+                { @vec(816.5,65.5,298.5) } >>
+                Entity Purification // pattern, pattern, entity
+
+                // Amethyst vector
+                { @vec(815.5,63.5,297.5) } >> // pattern, pattern, entity, vec
+
+                Numerical Reflection(3)
+                Fisherman's Gambit // pattern, entity, vec, pattern
+
+                $if (Athena's Gambit) then (
+                    // Mishap case
+                    Bookkeeper's Gambit(vvvv)
+                ) else (
+                    // Success case
+                    Reveal // pattern
+
+                    // Item frame vector
+                    { @vec(811.5,65.5,291.5) } >>
+                    Entity Purification
+
+                    Jester's Gambit // entity, pattern
+                    Chronicler's Gambit
+                )
+        )
+
+    )
+}
+
+// Location
+Mind's Reflection
+Compass' Purification
+
+// Amount of media
+Numerical Reflection(300)
+
+Summon Cyclic Wisp
