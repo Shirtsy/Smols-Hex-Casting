@@ -46,7 +46,7 @@
 
                 $if (Athena's Gambit) then (
                     // Mishap case
-                    Bookkeeper's Gambit(vvvv)
+                    Bookkeeper's Gambit(vvv)
                 ) else (
                     // Success case
                     Reveal // pattern
