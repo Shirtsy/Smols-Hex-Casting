@@ -1,0 +1,160 @@
+{
+    @pattern(WEST,aeawaedeweeweweed),
+    @pattern(WEST,aeawaeqqqwqwqqwqq),
+    @pattern(WEST,aeawdeeweweeeqaqq),
+    @pattern(WEST,aeawdeeweweewedea),
+    @pattern(WEST,aeawqqaqeeeweweed),
+    @pattern(WEST,aeawqqwqqwqwqqqea),
+    @pattern(WEST,aedeweeeqdwaqqwqq),
+    @pattern(WEST,aedeweeeqeeedwqqq),
+    @pattern(WEST,aedeweeweewaqqqea),
+    @pattern(WEST,aedeweeweweedwaea),
+    @pattern(WEST,aeqqqaweeweeeqaqq),
+    @pattern(WEST,aeqqqaweeweewedea),
+    @pattern(WEST,aeqqqqedeeweeweed),
+    @pattern(WEST,aeqqqqeqqqwqqwqqq),
+    @pattern(WEST,aeqqqwqaqdweeweed),
+    @pattern(WEST,aeqqqwqwqqwqqwaea),
+    @pattern(WEST,deeeqdwdqaqwqqwqq),
+    @pattern(WEST,deeeqdweedeqqqwqq),
+    @pattern(WEST,deeeqeeeeqaqqwqqq),
+    @pattern(WEST,deeeqeeewedeawqqq),
+    @pattern(WEST,deeweewdqaqwqqqea),
+    @pattern(WEST,deeweeweedeqqqqea),
+    @pattern(WEST,deeweweeeqaqqwaea),
+    @pattern(WEST,deeweweewedeawaea),
+    @pattern(WEST,eedwaeawaedeweewe),
+    @pattern(WEST,eedwaeawqqaqeeewe),
+    @pattern(WEST,eedwaeqqqqedeewee),
+    @pattern(WEST,eedwaeqqqwqaqdwee),
+    @pattern(WEST,eedwqqqwaedeweeeq),
+    @pattern(WEST,eedwqqqwqqaqeeeeq),
+    @pattern(WEST,eedwqqwqqqedeewdq),
+    @pattern(WEST,eedwqqwqqwqaqdwdq),
+    @pattern(WEST,eeeqaqqwaeawdeewe),
+    @pattern(WEST,eeeqaqqwaeqqqawee),
+    @pattern(WEST,eeeqaqqwqqqwdeeeq),
+    @pattern(WEST,eeeqaqqwqqwqqawdq),
+    @pattern(WEST,eeeqdwaqqwqqwaede),
+    @pattern(WEST,eeeqdwaqqwqqwqqaq),
+    @pattern(WEST,eeeqdwdqaqwqqwqqw),
+    @pattern(WEST,eeeqdwdqdweeweewe),
+    @pattern(WEST,eeeqdweedeqqqwqqw),
+    @pattern(WEST,eeeqdweeeweeweeeq),
+    @pattern(WEST,eeeqeeedwqqqwaede),
+    @pattern(WEST,eeeqeeedwqqqwqqaq),
+    @pattern(WEST,eeeqeeeeqaqqwqqqw),
+    @pattern(WEST,eeeqeeeeqdweeewee),
+    @pattern(WEST,eeeqeeewedeawqqqw),
+    @pattern(WEST,eeeqeeeweeweeewdq),
+    @pattern(WEST,eewedeawaeawdeewe),
+    @pattern(WEST,eewedeawaeqqqawee),
+    @pattern(WEST,eewedeawqqqwdeeeq),
+    @pattern(WEST,eewedeawqqwqqawdq),
+    @pattern(WEST,eeweewaqqqeawaede),
+    @pattern(WEST,eeweewaqqqeawqqaq),
+    @pattern(WEST,eeweewdqaqwqqqeaw),
+    @pattern(WEST,eeweewdqdwdqeeewe),
+    @pattern(WEST,eeweeweedeqqqqeaw),
+    @pattern(WEST,eeweeweeewdqeeeeq),
+    @pattern(WEST,eeweweedwaeawaede),
+    @pattern(WEST,eeweweedwaeawqqaq),
+    @pattern(WEST,eeweweeeqaqqwaeaw),
+    @pattern(WEST,eeweweeeqdwdqdwee),
+    @pattern(WEST,eeweweewedeawaeaw),
+    @pattern(WEST,eeweweeweewdqdwdq),
+    @pattern(WEST,qqaqeeeeqdwaqqwqq),
+    @pattern(WEST,qqaqeeeeqeeedwqqq),
+    @pattern(WEST,qqaqeeeweewaqqqea),
+    @pattern(WEST,qqaqeeeweweedwaea),
+    @pattern(WEST,qqqwaedeweeeqeeed),
+    @pattern(WEST,qqqwaeqqqqeqqqwqq),
+    @pattern(WEST,qqqwdeeeqeeeeqaqq),
+    @pattern(WEST,qqqwdeeeqeeewedea),
+    @pattern(WEST,qqqwqqaqeeeeqeeed),
+    @pattern(WEST,qqqwqqwqqqeqqqqea),
+    @pattern(WEST,qqwqqawdqeeeeqaqq),
+    @pattern(WEST,qqwqqawdqeeewedea),
+    @pattern(WEST,qqwqqqedeewdqeeed),
+    @pattern(WEST,qqwqqqeqqqqeawqqq),
+    @pattern(WEST,qqwqqwqaqdwdqeeed),
+    @pattern(WEST,qqwqqwqwqqqeawaea),
+    @pattern(WEST,waeawaedeweewewee),
+    @pattern(WEST,waeawaeqqqwqwqqwq),
+    @pattern(WEST,waeawdeeweweeeqaq),
+    @pattern(WEST,waeawdeeweweewede),
+    @pattern(WEST,waeawqqaqeeewewee),
+    @pattern(WEST,waeawqqwqqwqwqqqe),
+    @pattern(WEST,waedeweeeqdwaqqwq),
+    @pattern(WEST,waedeweeeqeeedwqq),
+    @pattern(WEST,waedeweeweewaqqqe),
+    @pattern(WEST,waedeweeweweedwae),
+    @pattern(WEST,waeqqqaweeweeeqaq),
+    @pattern(WEST,waeqqqaweeweewede),
+    @pattern(WEST,waeqqqqedeeweewee),
+    @pattern(WEST,waeqqqqeqqqwqqwqq),
+    @pattern(WEST,waeqqqwqaqdweewee),
+    @pattern(WEST,waeqqqwqwqqwqqwae),
+    @pattern(WEST,wdeeeqdwdqaqwqqwq),
+    @pattern(WEST,wdeeeqdweedeqqqwq),
+    @pattern(WEST,wdeeeqeeeeqaqqwqq),
+    @pattern(WEST,wdeeeqeeewedeawqq),
+    @pattern(WEST,wdeeweewdqaqwqqqe),
+    @pattern(WEST,wdeeweeweedeqqqqe),
+    @pattern(WEST,wdeeweweeeqaqqwae),
+    @pattern(WEST,wdeeweweewedeawae),
+    @pattern(WEST,wqqaqeeeeqdwaqqwq),
+    @pattern(WEST,wqqaqeeeeqeeedwqq),
+    @pattern(WEST,wqqaqeeeweewaqqqe),
+    @pattern(WEST,wqqaqeeeweweedwae),
+    @pattern(WEST,wqqqwaedeweeeqeee),
+    @pattern(WEST,wqqqwaeqqqqeqqqwq),
+    @pattern(WEST,wqqqwdeeeqeeeeqaq),
+    @pattern(WEST,wqqqwdeeeqeeewede),
+    @pattern(WEST,wqqqwqqaqeeeeqeee),
+    @pattern(WEST,wqqqwqqwqqqeqqqqe),
+    @pattern(WEST,wqqwqqawdqeeeeqaq),
+    @pattern(WEST,wqqwqqawdqeeewede),
+    @pattern(WEST,wqqwqqqedeewdqeee),
+    @pattern(WEST,wqqwqqqeqqqqeawqq),
+    @pattern(WEST,wqqwqqwqaqdwdqeee),
+    @pattern(WEST,wqqwqqwqwqqqeawae),
+}
+
+Scribe's Reflection// pattern list, spell list
+
+Retrograde Purification // pats, r.sell
+Speaker's Decomposition // pats, r.sell, num
+Gemini Decomposition // pats, r.sell, num, num
+Numerical Reflection(1) // pats, r.sell, num, num, 1
+Additive Distillation // pats, r.sell, num, num + 1
+Numerical Reflection(3) // pats, r.sell, num, num + 1
+Fisherman's Gambit // pats, num, num + 1, r.spell
+Jester's Gambit // pats, num, r.spell, num + 1
+Speaker's Distillation // pats, num, r.spell
+Retrograde Purification // pats, num, spell list
+
+Scribe's Gambit // pats, num
+
+Selection Distillation // pattern
+Gemini Decomposition // pattern, pattern
+
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Archer's Distillation
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Architect's Distillation
+Additive Distillation // pattern, pattern, vec
+
+Jester's Gambit // pattern, vec, pattern
+Hermes' Gambit // pattern
+
+Scribe's Gambit
+
+Charon's Gambit
+@num(0)

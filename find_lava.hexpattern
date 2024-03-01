@@ -1,0 +1,72 @@
+{
+    @pattern(WEST,aedadedaqae),
+    @pattern(WEST,aedadewdedq),
+    @pattern(WEST,aedeqaqedea),
+    @pattern(WEST,aedeqawqaqq),
+    @pattern(WEST,aedwaqawqae),
+    @pattern(WEST,aedwedewdea),
+    @pattern(WEST,dqadaqadedq),
+    @pattern(WEST,dqadaqwaqae),
+    @pattern(WEST,dqaqedeqaqd),
+    @pattern(WEST,dqaqedwedee),
+    @pattern(WEST,dqawdedwedq),
+    @pattern(WEST,dqawqaqwaqd),
+    @pattern(WEST,eadedadewdq),
+    @pattern(WEST,eaqadedadea),
+    @pattern(WEST,eaqawqadaqd),
+    @pattern(WEST,eaqwaqawdea),
+    @pattern(WEST,eawqadaqadq),
+    @pattern(WEST,eawqawdedwq),
+    @pattern(WEST,eedewdeqaqd),
+    @pattern(WEST,eedewdwedee),
+    @pattern(WEST,ewaqawdewdq),
+    @pattern(WEST,ewaqwawqawe),
+    @pattern(WEST,qdaqadaqwae),
+    @pattern(WEST,qdedaqadaqd),
+    @pattern(WEST,qdedwedadea),
+    @pattern(WEST,qdewdedwaqd),
+    @pattern(WEST,qdwedadedae),
+    @pattern(WEST,qdwedwaqawe),
+    @pattern(WEST,qqaqwaqedea),
+    @pattern(WEST,qqaqwawqaqq),
+    @pattern(WEST,qwdedwaqwae),
+    @pattern(WEST,qwdewdwedwq)
+}
+
+Scribe's Reflection // pattern list, spell list
+
+Retrograde Purification // pats, r.sell
+Speaker's Decomposition // pats, r.sell, num
+Gemini Decomposition // pats, r.sell, num, num
+Numerical Reflection(1) // pats, r.sell, num, num, 1
+Additive Distillation // pats, r.sell, num, num + 1
+Numerical Reflection(3) // pats, r.sell, num, num + 1
+Fisherman's Gambit // pats, num, num + 1, r.spell
+Jester's Gambit // pats, num, r.spell, num + 1
+Speaker's Distillation // pats, num, r.spell
+Retrograde Purification // pats, num, spell list
+
+Scribe's Gambit // pats, num
+
+Selection Distillation // pattern
+Gemini Decomposition // pattern, pattern
+
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Archer's Distillation
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Architect's Distillation
+Additive Distillation // pattern, pattern, vec
+
+Jester's Gambit // pattern, vec, pattern
+Hermes' Gambit // pattern
+
+Scribe's Gambit
+
+Charon's Gambit
+@num(0)
