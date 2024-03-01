@@ -1,0 +1,37 @@
+#wget(syntax_utils.hexpattern)(https://github.com/Shirtsy/HexLator/raw/main/utils/syntax_utils.hexpattern)
+
+
+// Pattern to execute
+{
+    // Check if first cast
+    $if (
+        Nullary Reflection
+        Muninn's Reflection
+        Equality Distillation
+    ) then (
+        // Ravenmind empty case
+        Huginn's Gambit
+        Mind's Reflection
+        Compass' Purification
+        Mind's Reflection
+        Alidade's Purification
+        Archer's Distillation
+        Link
+
+        Numerical Reflection(0)
+        True Reflection
+        Send Iota
+    ) else (
+        // Ravenmind populated case
+
+    )
+}
+
+// Location
+Mind's Reflection
+Compass' Purification
+
+// Amount of media
+Numerical Reflection(300)
+
+Summon Cyclic Wisp
