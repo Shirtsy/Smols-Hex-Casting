@@ -1,0 +1,155 @@
+#wget(syntax_utils.hexpattern)(https://github.com/Shirtsy/HexLator/raw/main/utils/syntax_utils.hexpattern)
+
+#def(summon_greater_sentinel)(@pattern(WEST,waedeweeweewaqqqe))
+
+#def(print_stack)(
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+)
+
+#def(read_focus_last)(
+    Scribe's Reflection // list
+    Retrograde Purification // r.list
+    Speaker's Decomposition // r.list, any
+)
+
+#def(write_focus_last)(
+    Speaker's Distillation // r.list
+    Retrograde Purification // list
+    Scribe's Gambit
+)
+
+#def(pos_list)(
+    {
+        @vec(5,0,5), @vec(5,0,4), @vec(5,0,3), @vec(5,0,2), @vec(5,0,1), @vec(5,0,0), @vec(5,0,-1), @vec(5,0,-2), @vec(5,0,-3), @vec(5,0,-4), @vec(5,0,-5), @vec(4,0,5), @vec(4,0,4), @vec(4,0,3), @vec(4,0,2), @vec(4,0,1), @vec(4,0,0), @vec(4,0,-1), @vec(4,0,-2), @vec(4,0,-3), @vec(4,0,-4), @vec(4,0,-5), @vec(3,0,5), @vec(3,0,4), @vec(3,0,3), @vec(3,0,2), @vec(3,0,1), @vec(3,0,0), @vec(3,0,-1), @vec(3,0,-2), @vec(3,0,-3), @vec(3,0,-4), @vec(3,0,-5), @vec(2,0,5), @vec(2,0,4), @vec(2,0,3), @vec(2,0,2), @vec(2,0,1), @vec(2,0,0), @vec(2,0,-1), @vec(2,0,-2), @vec(2,0,-3), @vec(2,0,-4), @vec(2,0,-5), @vec(1,0,5), @vec(1,0,4), @vec(1,0,3), @vec(1,0,2), @vec(1,0,1), @vec(1,0,0), @vec(1,0,-1), @vec(1,0,-2), @vec(1,0,-3), @vec(1,0,-4), @vec(1,0,-5), @vec(0,0,5), @vec(0,0,4), @vec(0,0,3), @vec(0,0,2), @vec(0,0,1), @vec(0,0,0), @vec(0,0,-1), @vec(0,0,-2), @vec(0,0,-3), @vec(0,0,-4), @vec(0,0,-5), @vec(-1,0,5), @vec(-1,0,4), @vec(-1,0,3), @vec(-1,0,2), @vec(-1,0,1), @vec(-1,0,0), @vec(-1,0,-1), @vec(-1,0,-2), @vec(-1,0,-3), @vec(-1,0,-4), @vec(-1,0,-5), @vec(-2,0,5), @vec(-2,0,4), @vec(-2,0,3), @vec(-2,0,2), @vec(-2,0,1), @vec(-2,0,0), @vec(-2,0,-1), @vec(-2,0,-2), @vec(-2,0,-3), @vec(-2,0,-4), @vec(-2,0,-5), @vec(-3,0,5), @vec(-3,0,4), @vec(-3,0,3), @vec(-3,0,2), @vec(-3,0,1), @vec(-3,0,0), @vec(-3,0,-1), @vec(-3,0,-2), @vec(-3,0,-3), @vec(-3,0,-4), @vec(-3,0,-5), @vec(-4,0,5), @vec(-4,0,4), @vec(-4,0,3), @vec(-4,0,2), @vec(-4,0,1), @vec(-4,0,0), @vec(-4,0,-1), @vec(-4,0,-2), @vec(-4,0,-3), @vec(-4,0,-4), @vec(-4,0,-5), @vec(-5,0,5), @vec(-5,0,4), @vec(-5,0,3), @vec(-5,0,2), @vec(-5,0,1), @vec(-5,0,0), @vec(-5,0,-1), @vec(-5,0,-2), @vec(-5,0,-3), @vec(-5,0,-4), @vec(-5,0,-5)
+    }
+)
+
+#def(block_list)(
+    {
+        @item_type(minecraft:iron_ore,false),
+        @item_type(minecraft:diamond_ore,false),
+        @item_type(minecraft:gold_ore,false),
+        @item_type(minecraft:emerald_ore,false),
+        @item_type(minecraft:lapis_ore,false),
+        @item_type(minecraft:redstone_ore,false),
+        @item_type(minecraft:copper_ore,false),
+        @item_type(minecraft:deepslate_iron_ore,false),
+        @item_type(minecraft:deepslate_diamond_ore,false),
+        @item_type(minecraft:deepslate_gold_ore,false),
+        @item_type(minecraft:deepslate_emerald_ore,false),
+        @item_type(minecraft:deepslate_lapis_ore,false),
+        @item_type(minecraft:deepslate_redstone_ore,false),
+        @item_type(minecraft:deepslate_copper_ore,false),
+        @item_type(create:zinc_ore,false),
+        @item_type(create:deepslate_zinc_ore,false),
+        @item_type(minecraft:nether_quartz_ore,false),
+        @item_type(minecraft:ancient_debris,false)
+    }
+)
+
+// Push coords to ravenmind
+$read_focus_last // r.list, vec
+Mind's Reflection
+Compass' Purification
+Additive Distillation
+Huginn's Gambit
+Bookkeeper's Gambit(v)
+
+
+$if (
+    Mind's Reflection
+    Stadiometer's Purification
+    {@num(1.6)} >>
+    Maximus Distillation
+
+) then (
+    // Standing Case
+
+    // Summon sentinel at coords if doesn't exist
+    $if (
+        Locate Sentinel
+        Nullary Reflection
+        Equality Distillation // true if sentinel not exists
+    ) then (
+        // Sentinel Null
+        Muninn's Reflection
+        $summon_greater_sentinel
+    ) else (
+        // Sentinel Exists
+    )
+
+    // Summon sentinel at coords if far away
+    $if (
+        Locate Sentinel
+        Muninn's Reflection
+        Subtractive Distillation
+        Length Purification
+        Numerical Reflection(14)
+        Maximus Distillation // true if sentinel 14 blocks away
+    ) then (
+        // Sentinel Null or Far Case
+        Muninn's Reflection
+        $summon_greater_sentinel
+    ) else (
+        // Sentinel Exists and Close Case
+        $for_each in ($pos_list) do (
+            // vec
+            Muninn's Reflection
+            Additive Distillation
+            Gemini Decomposition // vec, vec
+            $if (
+                Sorter's Purification // vec, type
+                $block_list // vec, type, list
+                Gemini Decomposition
+
+                Abacus Purification // vec, type, list, len
+                Jester's Gambit // vec, type, len, list
+                Numerical Reflection(3)
+                Fisherman's Gambit // vec, len, list, type
+                Integration Distillation // vec, len, list
+                Uniqueness Purification
+                Abacus Purification // vec, len, len
+                
+                Equality Distillation
+            ) then (
+                // Block in list
+                Gemini Decomposition // vec, vec
+                Break Block
+                // Mediafy then return item
+                Numerical Reflection(1)
+                Zone Distillation: Item
+                Speaker's Decomposition
+                Jester's Gambit
+                Bookkeeper's Gambit(v)
+                Mediafy Item
+                Mind's Reflection
+                Compass' Purification
+                Return Item
+
+            ) else (
+                // Block not in list
+                Aergia's Gambit
+            )
+
+        )
+        // Lower vec by 1
+        $read_focus_last
+        { @vec(0,-1,0) } >>
+        Additive Distillation
+        $write_focus_last
+    )
+
+) else (
+    // Crouching Case
+    $read_focus_last
+    Bookkeeper's Gambit(v)
+    { @vec(0,-2,0) } >>
+    $write_focus_last
+    Banish Sentinel
+)
+
+Charon's Gambit
+@vec(0,-2,0)
