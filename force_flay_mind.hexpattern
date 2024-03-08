@@ -1,8 +1,8 @@
 #wget(syntax_utils.hexpattern)(https://github.com/Shirtsy/HexLator/raw/main/utils/syntax_utils.hexpattern)
 
-#def(villager_vector)(@vec(-1.5,57.5,4.5))
-#def(amethyst_vector)(@vec(-1.5,58.5,4.5))
-#def(item_frame_vector)(@vec(-1.5,59.5,4.5))
+#def(villager_vector)(@vec(816.5,65.5,298.5))
+#def(amethyst_vector)(@vec(816.5,66.5,298.5))
+#def(item_frame_vector)(@vec(816.5,67.5,298.5))
 
 // Pattern to execute
 {
@@ -51,6 +51,13 @@
 
                 Numerical Reflection(3)
                 Fisherman's Gambit // pattern, entity, vec, pattern
+                Gemini Decomposition
+
+                // Item frame vector
+                { $item_frame_vector } >>
+                Entity Purification
+                Jester's Gambit // entity, pattern
+                Chronicler's Gambit
 
                 $if (Athena's Gambit) then (
                     // Mishap case
@@ -59,14 +66,9 @@
                     Bookkeeper's Gambit(v)
                 ) else (
                     // Success case
-                    Reveal // pattern
-
-                    // Item frame vector
-                    { $item_frame_vector } >>
-                    Entity Purification
-
-                    Jester's Gambit // entity, pattern
-                    Chronicler's Gambit
+                    Numerical Reflection(0)
+                    Unlink
+                    Charon's Gambit
                 )
             )
         )
