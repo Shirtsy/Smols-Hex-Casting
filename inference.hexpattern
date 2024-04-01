@@ -1,0 +1,64 @@
+#wget(syntax_utils.hexpattern)(https://github.com/Shirtsy/HexLator/raw/main/utils/syntax_utils.hexpattern)
+#def(grid_data)(
+    {
+        @vec(-9.5, 56.5, -16.5)
+        @pattern(SOUTH_WEST,wawqwaw)
+    } >>
+    Akasha's Distillation
+)
+#def(weight_data)(
+    {
+        @vec(-9.5, 56.5, -16.5)
+        @pattern(SOUTH_WEST,wawqwa)
+    } >>
+    Akasha's Distillation
+)
+
+// Initialize Ravencounter
+Numerical Reflection(0)
+Huginn's Gambit
+
+$for_each in (
+    $grid_data
+) do (
+    // Stack: vec
+
+    // Turn block data into 1/-1
+    $if (
+        Sorter's Purification
+        {@item_type(minecraft:white_concrete,false)} >>
+        Equality Distillation
+    ) then (
+        Numerical Reflection(1)
+    ) else (
+        Numerical Reflection(-1)
+    )
+
+    // Load corresponding weight
+    $weight_data
+    Muninn's Reflection
+    Selection Distillation
+
+    Multiplicative Distillation
+
+    // Increase ravencounter
+    Muninn's Reflection
+    Numerical Reflection(1)
+    Additive Distillation
+    Huginn's Gambit
+)
+Running Sum Purification
+Retrograde Purification
+Speaker's Decomposition
+Jester's Gambit
+Bookkeeper's Gambit(v)
+
+$if (
+    Numerical Reflection(0)
+    Maximus Distillation
+) then (
+    {@str(It's a 1!)} >>
+) else (
+    {@str(It's a 0!)} >>
+)
+Reveal
