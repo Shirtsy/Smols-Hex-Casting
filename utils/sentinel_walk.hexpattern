@@ -1,0 +1,33 @@
+#wget(syntax_utils.hexpattern)(https://github.com/Shirtsy/HexLator/raw/main/utils/syntax_utils.hexpattern)
+#def(greater_sentinel)(
+    @pattern(WEST, )
+)
+
+// vec1
+{}
+Iris' Gambit // vec1, jump
+Jester's Gambit // jump, vec1
+Gemini Decomposition // jump, vec1, vec1
+$if (
+    Locate Sentinel // jump, vec1, vec1, vec2
+    Subtractive Distillation // jump, vec1, vec3
+    Gemini Decomposition // jump, vec1, vec3, vec3
+    Length Purification // jump, vec1, vec3, len
+    Gemini Decomposition // jump, vec1, vec3, len, len
+    // Numerical Reflection: 15.5
+    @pattern(SOUTH_EAST,aqaaewde) // jump, vec1, vec3, len, len, num
+    Maximus Distillation // jump, vec1, vec3, len, bool
+) then (
+    // jump, vec1, vec3, len
+    Division Distillation // jump, vec1, normal
+    // Numerical Reflection: 15.5
+    @pattern(SOUTH_EAST,aqaaewde) // jump, vec1, normal, 15.5
+    Multiplicative Distillation // jump, vec1, vec
+    $greater_sentinel // jump, vec1
+    Bookkeeper's Gambit(v) // jump
+    Hermes' Gambit
+) else (
+    // jump, vec1, vec3, len
+    $greater_sentinel
+    Bookkeeper's Gambit(v)
+)
